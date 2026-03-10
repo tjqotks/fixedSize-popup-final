@@ -30,7 +30,7 @@ export default function App() {
         <div className="bg-zinc-900 px-6 py-4 flex justify-between items-center">
           <h1 className="text-white font-semibold tracking-tight">Featured Content</h1>
           <button
-            onClick={() => setIsOpen(false)}
+            onClick={() => window.close()}
             className="text-zinc-400 hover:text-white transition-colors duration-200"
             aria-label="Close"
           >
